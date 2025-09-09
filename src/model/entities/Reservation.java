@@ -34,7 +34,7 @@ public class Reservation {
         long diff = checkOut.getTime() - checkIn.getTime();
         return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
         // o calculo entre as duas datas esta sendo feito através da conversão
-        // de dias para milesegundos e depois da conversão dos milesegundos para dias
+        // de dias para milesegundos e depois da conversão dos milesegundos para dias.
     }
     public void updateDates (Date checkIn, Date checkOut){
         this.checkIn = checkIn;
