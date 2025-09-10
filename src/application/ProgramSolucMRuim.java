@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class Program {
+public class ProgramSolucMRuim {
     public static void main(String[] args) throws ParseException {
 
         Scanner sc = new Scanner(System.in);
